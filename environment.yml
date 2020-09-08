@@ -1,0 +1,13 @@
+name: manning_classification
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - numpy
+  - pandas
+  - jupyterlab
+  - ipython
+  - pandas-profiling
+  - swifter
+  - ipympl
