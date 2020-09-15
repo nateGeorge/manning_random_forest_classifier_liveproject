@@ -1,13 +1,16 @@
-name: manning_classification
+name: manning_rf
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.8
-  - scikit-learn
-  - numpy
-  - pandas
-  - jupyterlab
-  - ipython
-  - pandas-profiling
   - swifter
   - ipympl
+  - jupyterlab
+  - pandas-profiling
+  - scikit-learn
+  - pandas
+  - numpy
+  - ipython
+  - h2o-py
+prefix: /home/nate/anaconda3/envs/manning_rf
