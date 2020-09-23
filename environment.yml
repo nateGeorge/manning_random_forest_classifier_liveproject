@@ -13,4 +13,4 @@ dependencies:
   - numpy
   - ipython
   - h2o-py
-prefix: /home/nate/anaconda3/envs/manning_rf
+  - mlxtend
