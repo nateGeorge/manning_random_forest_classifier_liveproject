@@ -3,7 +3,7 @@ This can be used like so:
 
 import hard_coded_method as hcm
 
-predictions = hcm.predict(filename='new_loan_data.csv')
+predictions = hcm.score_risk(filename='new_loan_data.csv')
 """
 import pandas as pd
 import swifter
